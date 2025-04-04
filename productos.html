@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos de Maquillaje</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Productos de Maquillaje</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>Catálogo de Productos</h2>
+    <section class="productos-lista">
+
+
+        <div class="producto">
+            <img src="/base.liquida.jpg" alt="Base Líquida Pro">
+            <h3>Base Líquida Pro</h3>
+            <p>Base de maquillaje de cobertura completa, ideal para todo tipo de piel. Disponible en varios tonos.</p>
+            <p><strong>Precio:</strong> $25.99</p>
+            <button class="btn" onclick="agregarAlCarrito('Base Líquida Pro', 25.99)">Añadir al carrito</button>
+        </div>
+
+        <div class="producto">
+            <img src="/paleta.de.colores.jpg" alt="Paleta de Sombras Glamour">
+            <h3>Paleta de Sombras Glamour</h3>
+            <p>Paleta de sombras con 12 colores vibrantes, perfectos para looks de día y noche.</p>
+            <p><strong>Precio:</strong> $18.50</p>
+            <button class="btn" onclick="agregarAlCarrito('Paleta de Sombras Glamour', 18.50)">Añadir al carrito</button>
+        </div>
+
+        <div class="producto">
+            <img src="/labial.mate.jpg" alt="Labial Matte">
+            <h3>Labial Matte</h3>
+            <p>Labial de larga duración con acabado mate. Varios tonos disponibles.</p>
+            <p><strong>Precio:</strong> $12.99</p>
+            <button class="btn" onclick="agregarAlCarrito('Labial Matte', 12.99)">Añadir al carrito</button>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Tienda de Maquillaje | Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
